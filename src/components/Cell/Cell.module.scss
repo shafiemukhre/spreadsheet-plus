@@ -1,0 +1,35 @@
+.cell {
+  min-width: 5em;
+  min-height: 1.9em;
+  height: 1.9em;
+  max-height: 1.9em;
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+  word-break: keep-all;
+  white-space: nowrap;
+  text-align: left;
+  box-sizing: border-box;
+  user-select: none;
+  cursor: cell;
+
+  input {
+    height: 100%;
+    width: 100%;
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 4px;
+
+    &.editable {
+      background: var(--background-color);
+      box-shadow: var(--elevation);
+    }
+  }
+
+  &.active {
+    border: 2px solid var(--outline-color);
+  }
+}

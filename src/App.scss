@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  // spreadsheet colors
+  --background-color: white;
+  --text-color: black;
+  --outline-color: #4285f4;
+  --outline-background-color: rgba(160, 195, 255, 0.2);
+  --border-color: hsl(2deg, 0%, 91%);
+  --header-background-color: rgba(0, 0, 0, 0.04);
+  --elevation: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  h1 {
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+    color: rgb(61, 59, 59);
+  }
+}
