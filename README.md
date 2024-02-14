@@ -54,6 +54,6 @@ _Instructions for how to execute your deliverable._
 ## Checklist
 
 - [✔] The solution fulfills requirements. — Yes.
-- [ ] The README answers all prompts. — Yes.
+- [✔] The README answers all prompts. — Yes.
 - [✔] Would you submit this for code review in a workplace setting given the scope constraints? — Yes, and only after I added the unit/integration tests and the topological sort.
 - [✔] Is this something that you are proud of? — YES!
